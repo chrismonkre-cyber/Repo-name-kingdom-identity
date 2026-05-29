@@ -8,7 +8,7 @@ export default function LogoHeader({ title, subtitle }) {
         {title}
       </h1>
       {subtitle && (
-        <p className="mt-3 max-w-xl text-white/90 text-base md:text-lg font-body leading-relaxed drop-shadow">
+        <p className="mt-3 max-w-xl text-yellow-100 text-base md:text-lg font-body leading-relaxed drop-shadow">
           {subtitle}
         </p>
       )}

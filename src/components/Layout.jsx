@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Footer from "./Footer";
 import { Outlet, Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
@@ -69,6 +70,7 @@ export default function Layout() {
 
       <main className="pt-14">
         <Outlet />
+        <Footer />
       </main>
     </div>
   );
