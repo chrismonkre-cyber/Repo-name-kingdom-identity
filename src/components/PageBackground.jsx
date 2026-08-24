@@ -9,7 +9,7 @@ export default function PageBackground({ desktopImg, mobileImg }) {
         className="fixed inset-0 -z-10 md:hidden bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${mobileImg})` }}
       />
-      <div className="fixed inset-0 -z-10 bg-black/20" />
+      <div className="fixed inset-0 -z-10 bg-black/40" />
     </>
   );
 }
